@@ -24,10 +24,6 @@ app.use(cookieParser());
 
 
 app.get('/', async function (req, res) {
-  res.render("home")
-})
-
-app.get('/listar', async function (req, res) {
   const produtos = await produto.findAll()
   res.json(produtos);
 })
@@ -42,5 +38,5 @@ app.post('/cadastra', async function (req, res) {
 })
 
 app.listen(5001, function () {
-  console.log('App de Exemplo escutando na porta 3000!')
+  console.log('App de Exemplo escutando na porta 5001!')
 });

@@ -9,6 +9,7 @@
   "author": "lauane e rafaela",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.2.0",
     "cookie-parser": "^1.4.6",
     "cookieparser": "^0.1.0",
     "cors": "^2.8.5",
